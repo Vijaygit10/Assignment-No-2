@@ -1,0 +1,5 @@
+-build your Docker image:
+
+bash
+
+1)docker build -t nginx-example .

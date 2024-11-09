@@ -1,0 +1,6 @@
+-Open your terminal or command prompt.
+-Create a new directory for your project:
+bash
+
+1) mkdir docker-nginx-example
+2) cd docker-nginx-example

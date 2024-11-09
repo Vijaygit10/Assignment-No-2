@@ -1,0 +1,28 @@
+-Create a README.md file in your project directory. Here’s a template you can use:
+
+# Docker Nginx Example
+
+This project sets up a simple web server using Docker and Nginx.
+
+- Docker must be installed on your machine.
+
+1)cd docker-nginx-example
+Build the Docker image:
+
+bash
+
+1)docker build -t nginx-example .
+Run the Docker container:
+
+bash
+
+1)docker run -d -p 8080:80 nginx-example
+2)Access the web server: Open your browser and go to: http://localhost:8080
+
+Stopping the Container
+To stop the container, you can run:
+
+bash
+
+1)docker ps               # find the container ID
+2)docker stop <>

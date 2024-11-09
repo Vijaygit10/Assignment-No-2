@@ -1,0 +1,3 @@
+-Nginx server from your web browser:
+
+Open your browser and go to: http://localhost:8080
