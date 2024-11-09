@@ -71,5 +71,38 @@ This is a basic Dockerized Nginx server setup.
 
 ## Prerequisites
 
-- Docker must be installed on your machine. 
+- Docker must be installed on your machine.
+
+- ## Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/my-nginx-app.git
+   cd my-nginx-app
+Build the Docker image:
+
+bash
+
+docker build -t my-nginx-app .
+Run the Docker container:
+
+bash
+
+docker run -d -p 8080:80 my-nginx-app
+Access the service: Open your browser and visit http://localhost:8080
+
+Stopping the Container
+To stop the running container, find the container ID using:
+
+bash
+
+docker ps
+Then run:
+
+bash
+
+docker stop 
+
+License
+This project is open-source.
 
